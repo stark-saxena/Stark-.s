@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main {
+  /* margin-left: 30%; */
+  /* margin-top: 3%; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: flex-start;
+  flex-direction: column;
+  /* width: 75%; */
+  /* height: 70%; */
+  background: rgb(0, 0, 0);
+  border-radius: 1rem;
+  padding: 0 40px;
+  /* padding: rem rem; */
+}
+.test {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+.test::after {
+  content: " ";
+  top: 10%;
+  left: 40%;
+  width: 200%;
+  height: 200%;
+  position: fixed;
+  background: rgba(255, 2, 2, 0.425);
+  transform: rotate(20deg);
+  z-index: 1;
+}
+
+.test > img {
+  position: absolute;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.menu {
+  display: flex;
+  justify-content: right;
+  padding-right: 6%;
+  background: rgb(0, 0, 0);
+  flex-wrap: wrap;
+}
+.list {
+  list-style: none;
+  padding: 2% 2%;
+  font-size: 15px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  /* height: 100%; */
+  /* text-align: ; */
+  /* padding: 2px 2px; */
+}
+.br {
+  padding-right: 8vw;
+  margin-left: 6vw;
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+}
+.text,
+#heading {
+  margin-left: 6vw;
+  padding-right: 8vw;
+}
+#heading {
+  margin-top: 5em;
+  padding-bottom: 3em;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  /* overflow: auto; */
+  width: 100%;
+  height: calc(100vh - 77.4px);
+}
+a {
+  text-decoration: none;
+  color: wheat;
+  padding: 4px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+a:hover {
+  font-size: large;
+  color: red;
+}
+/* input {
+  margin-top: 10%;
+} */
+p {
+  color: red;
+  font-size: x-large;
+  text-transform: uppercase;
+  font-weight: bold;
+  /* margin-top: 5%; */
+}
+.main input {
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid red;
+  color: red;
+}
+p {
+  padding-bottom: 20px;
+  /* margin: 0 50px; */
+}
+
+.main > input::placeholder {
+  color: red;
+  /* text-align: center; */
+}
+input {
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  width: 20rem;
+}
+.main input[type="submit"] {
+  color: white;
+  padding: 4px 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-weight: 500;
+  font-size: large;
+  background-color: red;
+  border-radius: 50px;
+  height: 2.5rem;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  align-self: center;
+  transform: translateY(-50%);
+  margin-bottom: -2rem;
+}
+.pad2 {
+  color: red;
+}
+.pad {
+  /* margin: 15px 0; */
+  color: red;
+}
+.texts {
+  font-size: xx-large;
+  align-self: center;
+}
